@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid blue;
+}
+
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    aspect-ratio: 1;
+}
+
+.staticSquares{
+    aspect-ratio: 1;
+    outline: 0.1px solid rgb(212, 145, 96);
+    background-color: rgb(241, 197, 180);
+}
