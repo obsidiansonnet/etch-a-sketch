@@ -1,7 +1,7 @@
 "use strict";
 
-let modifyGridButton = document.querySelector(".gridModifierButton");
-let gridResetButton = document.querySelector(".gridReset");
+const modifyGridButton = document.querySelector(".gridModifierButton");
+const gridResetButton = document.querySelector(".gridReset");
 const eventGrid = document.querySelector(".gridContainer");
 let n;
 
@@ -18,7 +18,7 @@ function gridPromptOnClick() {
 }
 
 function createGrid(n) {
-    let wrapperForSquares = document.querySelector(".gridContainer");
+    const wrapperForSquares = document.querySelector(".gridContainer");
     let squares;
     let intermittentValue = Math.floor(n || 16);
     let height = (750 / intermittentValue) + "px";
